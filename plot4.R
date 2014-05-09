@@ -1,5 +1,4 @@
-#This R code generates a Histogramm of the Global activ power
-#for the first two days of February 2007
+#This R code generates a png file with four different plots
 
 #We define the column names by this list, because we are skipping lines while reading
 colnames <- c("Date", "Time", "Global_active_power", "Global_reactive_power", 
